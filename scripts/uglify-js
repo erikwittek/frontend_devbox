@@ -1,0 +1,1 @@
+rm -f ./dist/app.min.js && find ./dist -type f -name "*.js" -not -path "./dist/bower_components/*" -not -name "*test.js" -not -name "vendor.min.js" -print0 | xargs -0 uglifyjs -o ./dist/app.min.js --

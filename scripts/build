@@ -1,0 +1,7 @@
+/opt/scripts/clear-dist
+/opt/scripts/build-pug
+/opt/scripts/build-coffee
+/opt/scripts/build-css
+/opt/scripts/copy-static-files
+/opt/scripts/uglify-js
+/opt/scripts/inject-deps

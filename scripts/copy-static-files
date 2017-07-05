@@ -1,0 +1,1 @@
+(cd src && ls ../dist && find . -type f -not -name "*.scss" -not -name "*.pug" -not -name "*.coffee" -print0 | xargs -0 cp --parent -t ../dist)

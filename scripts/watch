@@ -1,0 +1,1 @@
+nodemon --exec "/opt/scripts/build" --watch ./src --ext js,coffee,html,jade,pug,css,scss
