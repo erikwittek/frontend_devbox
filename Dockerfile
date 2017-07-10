@@ -1,6 +1,6 @@
 FROM node:7
 
-RUN npm install -g node-sass coffee-script pug-cli uglify-js wiredep-cli bowcat nodemon
+RUN npm install -g bower node-sass coffee-script pug-cli uglify-js wiredep-cli bowcat nodemon
 
 WORKDIR /srv/app
 
