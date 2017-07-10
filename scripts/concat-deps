@@ -1,1 +1,1 @@
-bowcat ./dist -o ./dist -m && mv dist/build.js dist/vendor.min.js
+bowcat ./lib -o ./dist && mv dist/build.js dist/vendor.min.js
