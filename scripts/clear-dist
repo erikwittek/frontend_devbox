@@ -1,2 +1,2 @@
 shopt -s extglob
-rm -rf ./dist/!(bower_components|vendor.min.js)
+rm -rf ./dist/!(lib|lib.min.js|vendor.min.js)
