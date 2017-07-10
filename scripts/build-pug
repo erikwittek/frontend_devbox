@@ -1,1 +1,2 @@
+#!/bin/bash
 pug -o dist/ src/

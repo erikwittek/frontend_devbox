@@ -1,1 +1,2 @@
+#!/bin/bash
 wiredep -d lib/bower_components -s dist/index.html --verbose

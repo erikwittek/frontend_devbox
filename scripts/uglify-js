@@ -1,3 +1,4 @@
+#!/bin/bash
 rm -f ./dist/app.min.js && find ./dist -type f -name "*.js" -not -path "./dist/lib/bower_components/*" -not -name "*test.js" -not -name "vendor.min.js" -print0 | xargs -0 uglifyjs -b -o ./dist/app.min.js --
 
 rm -f ./dist/lib.min.js && find ./lib -type f -name "*.js" -not -path "./lib/bower_components/*" -print0 | xargs -0 uglifyjs -b -o ./dist/lib.min.js --

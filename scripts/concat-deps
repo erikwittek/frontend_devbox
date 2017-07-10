@@ -1,1 +1,3 @@
+!#/bin/bash
+
 bowcat ./lib -o ./dist && mv dist/build.js dist/vendor.min.js
