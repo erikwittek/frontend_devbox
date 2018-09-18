@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 /opt/scripts/clear-dist
 /opt/scripts/build-pug

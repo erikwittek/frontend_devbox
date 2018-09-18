@@ -1,2 +1,3 @@
 #!/bin/bash
+
 node-sass -o dist/ src/

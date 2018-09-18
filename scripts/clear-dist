@@ -1,3 +1,4 @@
 #!/bin/bash
+
 shopt -s extglob
 rm -rf ./dist/!(lib|lib.min.js|vendor.min.js)
